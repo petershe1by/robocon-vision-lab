@@ -26,4 +26,4 @@
 
 - 自动化浏览器仅允许HTTP/HTTPS，直接打开file协议的自动检查被浏览器策略阻止，因此没有把“file协议离线启动”列为已实测项目。构建文件本身不使用外部网络资源；用户可在自己的浏览器中双击打开，或通过静态HTTP服务使用。
 - 未提供已训练分类器、自动角点算法或完整视觉参考答案；它们是免试题的考核内容。
-- GitHub仓库创建及Pages在线部署需在用户完成GitHub账户验证后继续；本记录不表示已经上线。
+- GitHub公开仓库已创建：https://github.com/petershe1by/robocon-vision-lab 。首次Actions部署成功（约25秒），并在Edge中实际打开 https://petershe1by.github.io/robocon-vision-lab/ ，确认主赛物块画面与v1.1录制控件初始化正常。首次部署记录：https://github.com/petershe1by/robocon-vision-lab/actions/runs/39563011894 。
